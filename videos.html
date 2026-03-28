@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobre mi.html">Sobre mí</a></li>
+        <li class="nav-item"><a class="nav-link" href="portafolio.html">Portafolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="videos.html">Videos</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero-sobre-mi">
+    <div class="hero-content">
+        <h1>Videos</h1>
+        <p>Contenido audiovisual relacionado con mi proceso de formación y aprendizaje en diseño y desarrollo web.</p>
+    </div>
+</section>
+
+<!-- FILTRO -->
+    <section class="videos">
+    <div class="videos-container">
+        <!-- FILTRO -->
+        <div class="filtro">
+            <span>Filtro:</span>
+            <div class="filtro-botones">
+                <button class="activo">Todos</button>
+                <button>Diseño</button>
+                <button>Programación</button>
+                <button>Videojuegos</button>
+            </div>
+        </div>
+
+        <!-- GRID VIDEOS -->
+    <div class="grid-videos">
+
+        <!-- VIDEO 1 -->
+        <div class="video-item">
+            <div class="video">
+                <iframe src="https://www.youtube.com/watch?v=MLZc3wecsnE" allowfullscreen></iframe>
+            </div>
+            <div class="card-video">
+                <h3>VideoClip musical</h3>
+                <p>Video musical presentando la vida nocturna de Medellín.</p>
+                <span>⏱ 3:51 min</span>
+            </div>
+        </div>
+
+        <!-- VIDEO 2 -->
+        <div class="video-item">
+            <div class="video">
+                <iframe src="https://www.youtube.com/shorts/4t5MZXWYMiM" allowfullscreen></iframe>
+            </div>
+            <div class="card-video">
+                <h3>VideoClip presentación</h3>
+                <p>Video tipo Short mostrando las fuerzas militares de Colombia</p>
+                <span>⏱ 47 seg</span>
+            </div>
+        </div>
+
+        <!-- VIDEO 3 -->
+        <div class="video-item">
+            <div class="video">
+                <iframe src="https://www.youtube.com/watch?v=qG0HjUn9U6Q" allowfullscreen></iframe>
+            </div>
+            <div class="card-video">
+                <h3>Video Corto titulado La Fosa</h3>
+                <p>Video corto donde presentamos una ilusion</p>
+                <span>⏱ 3:50 min</span>
+            </div>
+        </div>
+
+        <!-- VIDEO 4 -->
+        <div class="video-item">
+            <div class="video">
+                <iframe src="https://www.youtube.com/watch?v=hQcceplqa88" allowfullscreen></iframe>
+            </div>
+            <div class="card-video">
+                <h3>Video presentacion del color</h3>
+                <p>Video corto donde se muestra los cambios de color.</p>
+                <span>⏱ 2:31 min</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BOTON A PORTAFOLIO -->
+<section class="cta-videos">
+    <div class="container">
+
+        <h2>¿Quieres ver más contenido?</h2>
+        <p>Puedes encontrar más recursos y proyectos en mi portafolio.</p>
+
+        <a href="portafolio.html" class="btn-cta">Ver portafolio</a>
+
+    </div>
+</section>
+
+</body>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
